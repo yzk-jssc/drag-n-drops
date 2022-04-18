@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    border-radius: 3px;
+    border: 2px solid rgb(85, 141, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    cursor: grab;
+    color: rgb(76, 0, 255);
+}
